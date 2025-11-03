@@ -7,5 +7,7 @@ public class Array {
             sum += arr[i];
         }
         System.out.println(sum);
+
+        System.out.println("Coded by Theos");
     }
 }
