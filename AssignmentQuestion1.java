@@ -8,6 +8,6 @@ public class AssignmentQuestion1 {
 
         int sum = num1 + num2;
 
-        System.out.println("Sum Of Entered Numbers Is: " + sum);
+        JOptionPane.showMessageDialog(null, "Sum Of Entered Numbers Is: " + sum);
     }
 }
