@@ -1,18 +1,17 @@
-class MathUtils {
-    static int add(int a, int b) {
-        return a + b;
-    }
+class Car {
+    String name;
+    int speed;
 
-    static void printMessage() {
-        System.out.println("Hello!");
+    void drive() {
+        System.out.println(name + " is driving at " + speed);
     }
 }
 
-
-public class StaticClass {
+public class StaticClass{
     public static void main(String[] args){
-        int plus = MathUtils.add(2, 5);
-        System.out.println(plus);
-        MathUtils.printMessage();
+        Car c = new Car();
+        c.name = "BMW";
+        c.speed = 220;
+        c.drive();
     }
 }
