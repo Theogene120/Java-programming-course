@@ -16,5 +16,6 @@ public class Methode {
         int b[] = {1,2,3,4,5};
         int c[] = obj.multi(b, 3);
         System.out.println(Arrays.toString(c));
+        System.out.println("Hello " + "World");
     }
 }
