@@ -15,5 +15,7 @@ public class Sum {
         sum = num1 + num2;
 
         System.out.println("Sum of Entered number is: " + sum);
+
+        th.close();
     }
 }
