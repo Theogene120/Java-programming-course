@@ -38,7 +38,5 @@ public class MultiSet {
     // Show all elements
     public void display() {
         System.out.println(elements);
-    }
-
-    
+    } 
 }

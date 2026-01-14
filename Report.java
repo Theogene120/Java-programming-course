@@ -15,23 +15,23 @@ class Report {
     }
 
     public void readInfo() {
-        Scanner th = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter admission number (4 digit): ");
-        adno = th.nextInt();
-        th.nextLine(); // clear buffer
+        adno = sc.nextInt();
+        sc.nextLine(); // clear buffer
 
         System.out.print("Enter name: ");
-        name = th.nextLine();
+        name = sc.nextLine();
 
         System.out.println("Enter 5 marks:");
         for (int i = 0; i < 5; i++) {
-            marks[i] = th.nextFloat();
+            marks[i] = sc.nextFloat();
         }
 
         getAvg();
 
-        th.close();
+        sc.close();
     }
 
   
@@ -50,9 +50,9 @@ class Report {
     }
 
     public static void main(String[] args) {
-        Report cyn = new Report();
-        cyn.readInfo();
-        cyn.displayInfo();
+        Report obj = new Report();
+        obj.readInfo();
+        obj.displayInfo();
     }
 }
 
