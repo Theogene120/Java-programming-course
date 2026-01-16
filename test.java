@@ -3,7 +3,7 @@ public class test {
         try{
             System.out.print("Hello");
             int num = 1/0;
-            System.out.print("World");
+            System.out.print("Worldsss");
         }catch (ArithmeticException e){
             System.out.print(" java programmer");
         }finally{
