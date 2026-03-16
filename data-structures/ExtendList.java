@@ -1,5 +1,5 @@
 //
-import java.util.LinkedList;
+//import java.util.LinkedList;
 
 public class ExtendList {
     //LinkedList<Integer> mylist = new LinkedList<>();
