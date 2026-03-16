@@ -34,5 +34,7 @@ public class WellBalanceBraces {
     public static void main(String[] args) {
         System.out.println(isBalanced("{[()]}"));  
         System.out.println(isBalanced("({)}"));  
+
+        System.out.println(6 + "the");
     }
 }
