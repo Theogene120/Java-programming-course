@@ -144,8 +144,10 @@ public class AnySort {
                 break;
             default:
                 System.out.println("Invalid choice! Array will not be sorted.");
-                return;
+                
         }
+
+        sc.close();
 
     }
 }
